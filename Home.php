@@ -20,7 +20,7 @@
             <div>
                 <img src="img/Logo.svg" alt="logo">
                 <a href="Home.php">Home</a>
-                <a onclick=idiNaMenu()>Menu</a>
+                <a href="Menu">Menu</a>
                 <a href="About Us.php">About Us</a>
                 <a href="OurStory.php">OurStory</a>
                 <a href="Blog.php">Blog</a>
