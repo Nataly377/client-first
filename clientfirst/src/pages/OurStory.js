@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Menu = () => {
+const OurStory = () => {
   return (
-    <>
+<>
     <div className="navbar">
         <div className="container">
             <div>
                 <img src="img/Logo.svg" alt="logo" />
                 <a href="/">Home</a>
                 <a href="/Menu">Menu</a>
-                <a href="/About Us">About Us</a>
+                <a href="/AboutUs">About Us</a>
                 <a href="/OurStory">OurStory</a>
                 <a href="/Blog">Blog</a>
                 <a href="/Contact">Contact</a>
@@ -21,128 +21,22 @@ const Menu = () => {
         </div>
     </div>
 
-    <div className="ourmenu container d-flex justify-content-between">
-    <div>
-        <p className="meni mb-5">OUR MENU<img src="img/Line.png" className="ms-2" /></p>
-        <h2>Discover our menu chart</h2>
-        <h5>Most Popular Picks</h5>
-    </div>
-    <div className="paragraf">
-        <p>Through True Rich Attended does no end it his mother since favourable real had half every him case in
-            packages enquire we up ecstatic.. Through True Rich Attended does no end it his mother</p>
-    </div>
-</div>
-
-<div className="menufood container d-flex mb-3">
-    <h4 className="me-3">All</h4>
-    <h4 className="me-3">Fast Food</h4>
-    <h4 className="me-3">Cofee</h4>
-    <h4 className="me-3">Cocktails</h4>
-    <h4 className="me-3">Cocktails</h4>
-    <h4 className="me-3">Snacks</h4>
-</div>
-
-<div className="slika container">
-
-    <div className="me-2">
-        <img src="img/Image.jpg" alt="coffee" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Drop Cofee</p>
-            <p className="mt-2">$08.85</p>
+    <div className="ourStory container d-flex justify-content-between ms-5 me-1" >
+        <div className="ourstory-naslov py-2 px-5 me-5">
+            
+          <div className="osimg d-flex justify-content-between">  
+            <img src="img/osimg.jpg" alt="wiewoutside" className="me-4 mt-5" style={{width: '100%'}} />
+            <img src="img/osimg2.jpg" alt="wiew" style={{width: '100%'}} className="ms-3" />
+           </div> 
         </div>
+        <div className="textos mb-5 py-5 px-5 ms-5 me-5">
+            <h3 className="mb-3">One of the best cafes in New York.</h3>
+            <p>Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged and categorized with a voice and tone variation ranging from plain, casual to playful. The intention to build this Figma plugin originated from our Medium blog post, ‘Designing voice and tone for error messages.</p>
+            <p>Writing UX copies can be a little frustrating and confusing, and sometimes we are unsure about how to get the right word. To crack the code for the UX copies, we at Zeta Design wanted to build a Figma plugin for the larger design community. The plugin is called the Ghost UXWriter and has a set of UX copies cataloged and categorized with a voice and tone variation ranging from plain, casual to playful. The intention to build this Figma plugin originated from our Medium blog post, ‘Designing voice and tone for error messages.</p>
+       </div>
     </div>
 
-    <div className="me-2">
-        <img src="img/Image (1).png" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Choco Cup Cake</p>
-            <p className="mt-2">$4.85</p>
-        </div>
-    </div>
-
-    <div>
-        <img src="img/Image (2).png" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Chicken Burger</p>
-            <p className="mt-2">$8.85</p>
-        </div>
-    </div>
-</div>
-
-<div className="slika1 container">
-    <div className="me-2">
-        <img src="img/Image (3).png" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">French Fries</p>
-            <p className="mt-2">$7.85</p>
-        </div>
-    </div>
-    <div>
-        <img src="img/Image (4).png" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Sandwitch</p>
-            <p className="mt-2">$3.97</p>
-        </div>
-    </div>
-    <div className="ms-2">
-        <img src="img/Image (5).png" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Chinese Soup</p>
-            <p className="mt-2">$8.85</p>
-        </div>
-    </div>
-</div>
-<div className="slika container">
-
-    <div className="me-2">
-        <img src="img/Image (7).jpg" alt="coffee" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Quafe Brade</p>
-            <p className="mt-2">$7.85</p>
-        </div>
-    </div>
-
-    <div className="me-2">
-        <img src="img/Image (8).jpg" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Dalgona Cofee</p>
-            <p className="mt-2">$4.97</p>
-        </div>
-    </div>
-
-    <div>
-        <img src="img/Image (9).jpg" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Chowmin Noodle</p>
-            <p className="mt-2">$8.85</p>
-        </div>
-    </div>
-</div>
-<div className="slika1 container">
-    <div className="me-2">
-        <img src="img/Image (10).jpg" alt="cake" /> 
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Coka Cola</p>
-            <p className="mt-2">$7.85</p>
-        </div>
-    </div>
-    <div>
-        <img src="img/Image (11).jpg" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Fruit Salad</p>
-            <p className="mt-2">$3.97</p>
-        </div>
-    </div>
-    <div className="ms-2">
-        <img src="img/Image (12).jpg" alt="cake" />
-        <div className="item d-flex justify-content-between me-2 ms-2">
-            <p className="mt-2">Chinese Soup</p>
-            <p className="mt-2">$8.85</p>
-        </div>
-    </div>
-</div>
-
-<div className="contact container d-md-flex">
+    <div className="contact container d-md-flex">
   <div className="contactdata py-4 px-5">
     <h4 className="mt-5">Working Hour</h4>
     <p>Sunday to Saturday
@@ -208,8 +102,8 @@ const Menu = () => {
     </div>
   </div>
 </footer>
-</>
-  )
-}
+  </>  
+  );
+};
 
-export default Menu;
+export default OurStory;
